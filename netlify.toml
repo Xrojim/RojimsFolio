@@ -1,0 +1,18 @@
+[build]
+  command = "pnpm build"
+  # next.config.ts uses output: "export", which emits a fully static site to out/.
+  # Publishing .next instead serves the raw build folder, which has no index.html
+  # at its root and 404s on every path.
+  publish = "out"
+
+[build.environment]
+  # next@16 requires node >=20.9.0
+  NODE_VERSION = "22"
+  PNPM_VERSION = "11"
+
+# next/og writes the generated OG card to a file with no extension, so Netlify
+# would serve it as application/octet-stream and social crawlers would skip it.
+[[headers]]
+  for = "/opengraph-image"
+  [headers.values]
+    Content-Type = "image/png"
