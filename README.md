@@ -1,6 +1,6 @@
-# Pritha Karki — Portfolio
+# Rojim Maharjan — Portfolio
 
-Personal portfolio built with Next.js (App Router), React, Tailwind CSS, and shadcn/ui.
+Personal portfolio built with Next.js (App Router), React, Tailwind CSS, and 
 
 ## Getting Started
 
