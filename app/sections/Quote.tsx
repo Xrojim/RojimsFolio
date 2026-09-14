@@ -8,8 +8,8 @@ interface QuoteProps extends React.HTMLAttributes<HTMLDivElement> {
 }
 
 export function Quote({
-  text = "Good design is as little design as possible.",
-  author = "- Dieter Rams",
+  text = "It always seems impossible until it's done",
+  author = "- Nelson Mandela",
   className,
   ...props
 }: QuoteProps) {

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
-import { useTheme } from "next-themes";
+import { useTheme } from "@/lib/use-theme";
 import { AnimatedThemeToggler } from "./ui/animated-theme-toggler";
 import useSound from "use-sound";
 import { useMounted } from "@/lib/use-mounted";

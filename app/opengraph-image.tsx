@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 import { readFile } from "fs/promises";
 import path from "path";
 
-export const alt = "Pritha Karki — Frontend Developer";
+export const alt = "Rojim Maharjan — QA & Software Testing";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -42,7 +42,7 @@ export default async function Image() {
         />
         <div style={{ display: "flex", flexDirection: "column" }}>
           <div style={{ fontSize: 72, fontWeight: 700, letterSpacing: -2 }}>
-            Pritha Karki
+            Rojim Maharjan
           </div>
           <div
             style={{
@@ -51,7 +51,7 @@ export default async function Image() {
               marginTop: 12,
             }}
           >
-            Frontend Developer
+            Aspiring QA Engineer
           </div>
           <div
             style={{
@@ -60,10 +60,10 @@ export default async function Image() {
               marginTop: 32,
             }}
           >
-            React · Next.js · TypeScript · Tailwind CSS
+            Manual Testing · API Testing · Playwright · SDLC/STLC
           </div>
           <div style={{ fontSize: 24, color: "#a1a1aa", marginTop: 40 }}>
-            pritha.me
+            rojemmaharjan@gmail.com
           </div>
         </div>
       </div>

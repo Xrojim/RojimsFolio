@@ -19,10 +19,10 @@ const IBMPlexMono = IBM_Plex_Mono({
 });
 
 const siteConfig = {
-  name: "Pritha Karki",
-  title: "Pritha Karki | Frontend Developer",
+  name: "Rojim Maharjan",
+  title: "Rojim Maharjan | QA & Software Testing",
   description:
-    "A frontend developer building clean, responsive, and user-friendly web applications with React, Next.js, TypeScript, and Tailwind CSS. Explore my projects and open-source work.",
+    "Aspiring QA professional focused on software testing fundamentals, bug reporting, test case design, API testing, and quality assurance for real-world software products.",
   url: SITE_URL,
 };
 
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
 
   title: {
     default: siteConfig.title,
-    template: "%s | Pritha Karki",
+    template: "%s | Rojim Maharjan",
   },
 
   description: siteConfig.description,
@@ -43,22 +43,22 @@ export const metadata: Metadata = {
   applicationName: siteConfig.name,
 
   keywords: [
-    "Pritha Karki",
-    "Frontend Developer",
-    "React Developer",
-    "Next.js Developer",
-    "TypeScript",
-    "Tailwind CSS",
-    "Node.js",
-    "Portfolio",
-    "Projects",
-    "Web Developer",
+    "Rojim Maharjan",
+    "QA Engineer",
+    "Software Testing",
+    "Manual Testing",
+    "API Testing",
+    "Playwright",
+    "Bug Reporting",
+    "Test Case Design",
+    "Test Case Planning",
+    "Software QA",
     "Nepal",
   ],
 
-  authors: [{ name: "Pritha Karki" }],
-  creator: "Pritha Karki",
-  publisher: "Pritha Karki",
+  authors: [{ name: "Rojim Maharjan" }],
+  creator: "Rojim Maharjan",
+  publisher: "Rojim Maharjan",
 
   category: "Technology",
 
@@ -74,7 +74,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: siteConfig.url,
-    siteName: "Pritha Karki",
+    siteName: "Rojim Maharjan",
     title: siteConfig.title,
     description: siteConfig.description,
   },
@@ -83,7 +83,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: siteConfig.title,
     description: siteConfig.description,
-    creator: "@pritha_karki",
+    creator: "@Rojim_Maharjan",
   },
 
   formatDetection: {
@@ -113,12 +113,7 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body className="flex min-h-full flex-col items-center overflow-x-clip">
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
+        <ThemeProvider>
           {children}
           <Analytics />
         </ThemeProvider>

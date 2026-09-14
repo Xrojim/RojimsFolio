@@ -1,11 +1,14 @@
 "use client";
 
 import * as React from "react";
-import { ThemeProvider as NextThemesProvider } from "next-themes";
+import { useEffect } from "react";
 
-export function ThemeProvider({
-  children,
-  ...props
-}: React.ComponentProps<typeof NextThemesProvider>) {
-  return <NextThemesProvider {...props}>{children}</NextThemesProvider>;
+export function ThemeProvider({ children }: { children: React.ReactNode }) {
+  useEffect(() => {
+    const stored = window.localStorage.getItem("theme") ?? "light";
+    const isDark = stored === "dark";
+    document.documentElement.classList.toggle("dark", isDark);
+  }, []);
+
+  return <>{children}</>;
 }

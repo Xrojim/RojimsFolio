@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="mb-20">
         <p className="mb-2">
           Designed & Developed by{" "}
-          <span className="text-foreground font-medium">Pritha</span>
+          <span className="text-foreground font-medium">Rojim Maharjan</span>
         </p>
         <p>&copy; {new Date().getFullYear()} All rights reserved.</p>
       </div>

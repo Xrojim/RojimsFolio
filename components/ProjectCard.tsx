@@ -1,3 +1,5 @@
+"use client";
+
 import { TbWorld } from "react-icons/tb";
 import { TbBrandGithub } from "react-icons/tb";
 import LinkIcon from "./icons/LinkIcon";

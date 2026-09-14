@@ -2,7 +2,7 @@
 import { ActivityCalendar, type Activity } from "react-activity-calendar";
 import "react-activity-calendar/tooltips.css";
 import React, { useEffect, useState } from "react";
-import { useTheme } from "next-themes";
+import { useTheme } from "@/lib/use-theme";
 import { useMounted } from "@/lib/use-mounted";
 
 const USERNAME = "prithaxdev";

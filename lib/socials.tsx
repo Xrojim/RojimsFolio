@@ -1,5 +1,4 @@
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
 
 export interface SocialLink {
   title: string;
@@ -7,23 +6,18 @@ export interface SocialLink {
   icon: React.ReactNode;
 }
 
-export const EMAIL = "prithakarkii@gmail.com";
+export const EMAIL = "rojemmaharjan@gmail.com";
 
 export const socialLinks: SocialLink[] = [
   {
     title: "GitHub",
-    url: "https://github.com/prithaxdev",
+    url: "https://github.com/Xrojim",
     icon: <FaGithub />,
   },
   {
     title: "LinkedIn",
-    url: "https://www.linkedin.com/in/getpritha/",
+    url: "https://linkedin.com/in/rojim-maharjan-039807272/",
     icon: <FaLinkedin />,
-  },
-  {
-    title: "Twitter",
-    url: "https://x.com/pritha_karki",
-    icon: <FaXTwitter />,
   },
   {
     title: "Email",

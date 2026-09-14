@@ -1,7 +1,6 @@
 import Container from "@/components/Container";
 import TechStack from "./sections/TechStack";
 import Projects from "./sections/Projects";
-import GithubActivity from "./sections/GithubActivity";
 import Hero from "./sections/Hero";
 import Contact from "./sections/Contact";
 import Connect from "./sections/Connect";
@@ -14,7 +13,6 @@ export default function Home() {
       <Container>
         <Hero />
         <Contact />
-        <GithubActivity />
         <Projects />
         <TechStack />
         <Connect />
